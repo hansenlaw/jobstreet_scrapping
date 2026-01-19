@@ -1,0 +1,17 @@
+# Output files
+*.csv
+*.json
+scraper.log
+
+# Python
+__pycache__/
+*.py[cod]
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
