@@ -15,3 +15,14 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+*PUSH.md
+*BELAJAR.py
+*PRIVATE.md
+
+# Generated charts & reports
+*.png
+*.jpg
+dashboard_*.html
+
+# Personal notes
+NOTION_PORTFOLIO.md
