@@ -133,9 +133,9 @@ class JobStreetScraper:
         for page in range(1, max_pages + 1):
             # Buat URL
             keyword_slug = keyword.lower().replace(" ", "-")
-            url = f"https://id.jobstreet.com/id/job-search/{keyword_slug}-jobs"
+            url = f"https://id.jobstreet.com/id/{keyword_slug}-jobs"
             if page > 1:
-                url += f"?pg={page}"
+                url += f"?page={page}"
 
             print(f"  Page {page}: {url}")
 
